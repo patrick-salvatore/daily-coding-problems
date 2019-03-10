@@ -1,2 +1,6 @@
 # daliy-coding-problems
-Practice for algorithms/ interview questions thanks to DailyCodingProblem
+Practice for algorithms/ interview questions thanks to DailyCodingProblem (htts://dailycodingproblem.com) daily.
+
+
+
+
