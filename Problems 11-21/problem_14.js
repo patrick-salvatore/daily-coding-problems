@@ -6,10 +6,10 @@ Estimate π to 3 decimal places using a Monte Carlo method.
 
 */ 
 
-const estimatePIE = (total) => {
+const estimatePIE = (numInterations) => {
     let numInside = 0; 
     
-    for (let i = 0; i <= total; i++) {
+    for (let i = 0; i <= numInterations; i++) {
         let x = Math.random();
         let y = Math.random();
 
@@ -18,6 +18,6 @@ const estimatePIE = (total) => {
         }
     }
     
-    const pi = 4 * (numInside/total)
+    const pi = 4 * (numInside/numInterations)
     console.log(pi) 
 }
